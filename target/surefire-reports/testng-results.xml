@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-05T21:33:28 PDT" name="Suite" finished-at="2024-05-05T21:34:57 PDT" duration-ms="88837">
+    <groups>
+    </groups>
+    <test started-at="2024-05-05T21:33:28 PDT" name="Test" finished-at="2024-05-05T21:34:57 PDT" duration-ms="88837">
+      <class name="theScore.Stats">
+        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:theScore.Stats@6283d8b8]" started-at="2024-05-05T21:33:28 PDT" name="ConfigureAppium" finished-at="2024-05-05T21:33:55 PDT" duration-ms="26793" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureAppium -->
+        <test-method signature="testTeamStats(java.lang.String,java.lang.String)[pri:0, instance:theScore.Stats@6283d8b8]" started-at="2024-05-05T21:33:55 PDT" name="testTeamStats" data-provider="getData" finished-at="2024-05-05T21:34:50 PDT" duration-ms="54830" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[49ers]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[San Francisco 49ers]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTeamStats -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:theScore.Stats@6283d8b8]" started-at="2024-05-05T21:34:50 PDT" name="tearDown" finished-at="2024-05-05T21:34:57 PDT" duration-ms="7183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- theScore.Stats -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
