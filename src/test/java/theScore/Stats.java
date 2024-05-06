@@ -3,10 +3,11 @@ package theScore;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+import theScore.TestUtils.AndroidBaseTest;
 import theScore.pageObjects.android.Onboarding;
 import theScore.pageObjects.android.TeamStats;
 
-public class Stats extends BaseTest {
+public class Stats extends AndroidBaseTest {
 
 	@Test(dataProvider = "getData")
 	public void testTeamStats(String shortname, String fullname) throws Exception {

@@ -2,24 +2,36 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-05T20:17:34 PDT" name="Default suite" finished-at="2024-05-05T20:18:59 PDT" duration-ms="85011">
+  <suite started-at="2024-05-06T13:41:51 PDT" name="Test Suite" finished-at="2024-05-06T13:43:18 PDT" duration-ms="86863">
     <groups>
     </groups>
-    <test started-at="2024-05-05T20:17:34 PDT" name="Default test" finished-at="2024-05-05T20:18:59 PDT" duration-ms="85011">
+    <test started-at="2024-05-06T13:41:51 PDT" name="AndroidDemo" finished-at="2024-05-06T13:43:18 PDT" duration-ms="86863">
       <class name="theScore.Stats">
-        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:theScore.Stats@1e6a3214]" started-at="2024-05-05T20:17:34 PDT" name="ConfigureAppium" finished-at="2024-05-05T20:17:56 PDT" duration-ms="22598" status="PASS">
+        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:theScore.Stats@5bf8fa12]" started-at="2024-05-06T13:41:51 PDT" name="ConfigureAppium" finished-at="2024-05-06T13:42:12 PDT" duration-ms="20953" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ConfigureAppium -->
-        <test-method signature="testTeamStats()[pri:0, instance:theScore.Stats@1e6a3214]" started-at="2024-05-05T20:17:56 PDT" name="testTeamStats" finished-at="2024-05-05T20:18:51 PDT" duration-ms="54896" status="PASS">
+        <test-method signature="testTeamStats(java.lang.String,java.lang.String)[pri:0, instance:theScore.Stats@5bf8fa12]" started-at="2024-05-06T13:42:12 PDT" name="testTeamStats" data-provider="getData" finished-at="2024-05-06T13:43:11 PDT" duration-ms="58813" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[49ers]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[San Francisco 49ers]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTeamStats -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:theScore.Stats@1e6a3214]" started-at="2024-05-05T20:18:51 PDT" name="tearDown" finished-at="2024-05-05T20:18:59 PDT" duration-ms="7487" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:theScore.Stats@5bf8fa12]" started-at="2024-05-06T13:43:11 PDT" name="tearDown" finished-at="2024-05-06T13:43:18 PDT" duration-ms="7060" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- theScore.Stats -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- AndroidDemo -->
+  </suite> <!-- Test Suite -->
 </testng-results>
