@@ -117,7 +117,7 @@ public class TeamStats extends AndroidActions {
 			} else if (categoryname.get(i).getText().equals("3rd Down %")) {
 				System.out.println("Text displayed: " + categoryname.get(i).getText());
 			} else {
-				throw new Exception("Missing a stats category");
+				throw new Exception("Missing stats category");
 			}
 		}
 
