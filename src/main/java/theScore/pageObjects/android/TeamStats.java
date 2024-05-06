@@ -107,15 +107,15 @@ public class TeamStats extends AndroidActions {
 		// check stats category text
 		for (int i = 0; i < categoryname.size(); i++) {
 			if (categoryname.get(i).getText().equals("Total Yards")) {
-				Assert.assertTrue(true);
+				System.out.println("Text displayed: " + categoryname.get(i).getText());
 			} else if (categoryname.get(i).getText().equals("Passing Yards")) {
-				Assert.assertTrue(true);
+				System.out.println("Text displayed: " + categoryname.get(i).getText());
 			} else if (categoryname.get(i).getText().equals("Rushing Yards")) {
-				Assert.assertTrue(true);
+				System.out.println("Text displayed: " + categoryname.get(i).getText());
 			} else if (categoryname.get(i).getText().equals("Points")) {
-				Assert.assertTrue(true);
+				System.out.println("Text displayed: " + categoryname.get(i).getText());
 			} else if (categoryname.get(i).getText().equals("3rd Down %")) {
-				Assert.assertTrue(true);
+				System.out.println("Text displayed: " + categoryname.get(i).getText());
 			} else {
 				throw new Exception("Missing a stats category");
 			}
