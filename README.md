@@ -6,7 +6,7 @@
 ## To execute this test
 1. Ensure Maven is installed on local machine
 2. Clone this repository from the `develop` branch
-3. In the `data.properties` file, please add the IP address, port, and Android device name (file is located at: **src/main/java/theScore/resources**)
+3. In the `data.properties` file, please update the IP address and port number of your local machine. The AndroidDeviceName can be left as is. (file is located at: **src/main/java/theScore/resources**)
 4. Open `AppiumFramework` folder and type in Terminal: `mvn test -PAndroidTest`
 
 ## Test Requirements
