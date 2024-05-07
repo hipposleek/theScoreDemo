@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-06T15:42:33 PDT" name="Test Suite" finished-at="2024-05-06T15:43:53 PDT" duration-ms="79707">
+  <suite started-at="2024-05-06T17:04:25 PDT" name="Test Suite" finished-at="2024-05-06T17:05:50 PDT" duration-ms="85310">
     <groups>
     </groups>
-    <test started-at="2024-05-06T15:42:33 PDT" name="AndroidDemo" finished-at="2024-05-06T15:43:53 PDT" duration-ms="79707">
+    <test started-at="2024-05-06T17:04:25 PDT" name="AndroidDemo" finished-at="2024-05-06T17:05:50 PDT" duration-ms="85310">
       <class name="theScore.Stats">
-        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:theScore.Stats@3e6104fc]" started-at="2024-05-06T15:42:33 PDT" name="ConfigureAppium" finished-at="2024-05-06T15:42:51 PDT" duration-ms="17996" status="PASS">
+        <test-method is-config="true" signature="configureAppium()[pri:0, instance:theScore.Stats@3e6104fc]" started-at="2024-05-06T17:04:25 PDT" name="configureAppium" finished-at="2024-05-06T17:04:46 PDT" duration-ms="21149" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ConfigureAppium -->
-        <test-method signature="testTeamStats(java.lang.String,java.lang.String)[pri:0, instance:theScore.Stats@3e6104fc]" started-at="2024-05-06T15:42:51 PDT" name="testTeamStats" data-provider="getData" finished-at="2024-05-06T15:43:49 PDT" duration-ms="57588" status="PASS">
+        </test-method> <!-- configureAppium -->
+        <test-method signature="testTeamStats(java.lang.String,java.lang.String)[pri:0, instance:theScore.Stats@3e6104fc]" started-at="2024-05-06T17:04:46 PDT" name="testTeamStats" data-provider="getData" finished-at="2024-05-06T17:05:44 PDT" duration-ms="57789" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,7 +27,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTeamStats -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:theScore.Stats@3e6104fc]" started-at="2024-05-06T15:43:49 PDT" name="tearDown" finished-at="2024-05-06T15:43:53 PDT" duration-ms="4087" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:theScore.Stats@3e6104fc]" started-at="2024-05-06T17:05:44 PDT" name="tearDown" finished-at="2024-05-06T17:05:50 PDT" duration-ms="6337" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

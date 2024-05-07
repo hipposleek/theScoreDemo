@@ -30,7 +30,7 @@ public class AndroidBaseTest extends AppiumUtils {
 
 		UiAutomator2Options options = new UiAutomator2Options();
 		options.setDeviceName(prop.getProperty("AndroidDeviceName"));
-		options.setApp(System.getProperty("user.dir") + "//src//test//java//theScore//apps//theScore_24.8.0.apk");		
+		options.setApp(System.getProperty("user.dir") + "//src//test//java//theScore//apps//theScore_24.8.0.apk");
 
 		driver = new AndroidDriver(service.getUrl(), options);
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));

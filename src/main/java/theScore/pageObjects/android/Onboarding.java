@@ -52,7 +52,12 @@ public class Onboarding {
 		getstarted_continuebutton.click(); // continue from favorite team
 		getstarted_continuebutton.click(); // continue from Notif selection page
 		messaging_maybelater.click();
-		notification_allow.click();
+		// notif does not popup on real device
+		try {
+			notification_allow.click();
+		} catch (Exception e) {
+			e.getMessage();
+		}
 		// added try/catch since this popup doesn't always appear
 		try {
 			profile_okaybutton.click();
