@@ -3,7 +3,7 @@
 - **Appium Version**: 2 (2.5.4)
 - **Android App Version**: 24.8.0
 
-## To execute this test
+## Test Execution
 1. Ensure Maven is installed on local machine
 2. Clone this repository from the `develop` branch
 3. In the `data.properties` file, please update the IP address and port number of your local machine. The AndroidDeviceName can be left as is. (file is located at: **src/main/java/theScore/resources**)
