@@ -10,11 +10,13 @@ import org.testng.annotations.BeforeClass;
 
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.options.UiAutomator2Options;
+import theScore.pageObjects.android.Onboarding;
 import theScore.utils.AppiumUtils;
 
 public class AndroidBaseTest extends AppiumUtils {
 
 	public AndroidDriver driver;
+	public Onboarding onboarding;
 
 	@BeforeClass
 	public void configureAppium() throws IOException {
@@ -34,6 +36,7 @@ public class AndroidBaseTest extends AppiumUtils {
 
 		driver = new AndroidDriver(service.getUrl(), options);
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		onboarding = new Onboarding(driver);
 	}
 
 	@AfterClass

@@ -4,17 +4,14 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import theScore.TestUtils.AndroidBaseTest;
-import theScore.pageObjects.android.Onboarding;
 import theScore.pageObjects.android.TeamStats;
 
 public class Stats extends AndroidBaseTest {
 
 	@Test(dataProvider = "getData")
 	public void testTeamStats(String shortname, String fullname) throws Exception {
-		Onboarding onboarding = new Onboarding(driver);
-		TeamStats teamstats = new TeamStats(driver);
-
 		onboarding.onboardingFlow();
+		TeamStats teamstats = new TeamStats(driver);
 		teamstats.searchTeam(shortname, fullname);
 		teamstats.checkTeamStatsTab(fullname);
 		teamstats.checkTeamStats();
